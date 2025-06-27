@@ -321,7 +321,7 @@ function initializeSession(openaiWs) {
       tools: TOOLS,
       tool_choice: "auto",
       modalities: ["text", "audio"],
-      temperature: 0.5,
+      temperature: 0.7,
     },
   };
   console.log("Sending session update:", JSON.stringify(sessionUpdate, null, 2));
